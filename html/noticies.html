@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rebre Noticies</title>
+  <link rel="stylesheet" href="../css/estils.css" type="text/css">
+  <link rel="icon" href="../res/VagabondFavicon.webp" type="image/x-icon">
+  <meta name="author" content="Jordi Cordomí">
+  <meta name="description" content="La pàgina web oficial del popular manga Vagabond" >
+</head>
+<body>
+<header>
+  <a href="../html/index.html"><img src="../res/VagabondLogo.png" alt="Logo de Vagabond"></a>
+  <h2 class="markerFont">Escrit per Takehiko Inoue</h2>
+</header>
+<nav>
+  <a href="informacioExtesa.html" class="menuBtn markerFont">Veure més</a>
+  <a href="noticies.html" class="menuBtn markerFont">Rebre noticies</a>
+</nav>
+
+<div id="contenidor">
+  <aside>
+    <h1 class="markerFont">Fet per Takehiko Inoue</h1>
+    <div>
+      <img src="../res/takehikoInoue.jfif" alt="">
+    </div>
+    <p>
+      Takehiko Inoue (nascut el 1967) és un mangaka japonès famós per obres com "Slam Dunk", que va popularitzar el bàsquet al Japó, venent més de 120 milions de còpies. També és conegut per "Vagabond", una obra sobre el samurai Miyamoto Musashi, i "Real", centrada en el bàsquet en cadira de rodes. El seu art detallat i la profunditat emocional dels seus personatges són trets destacats del seu estil. Inoue ha deixat una empremta duradora en el manga a nivell global.
+    </p>
+  </aside>
+  <article>
+    <div id="contacte">
+      <h1 class="markerFont">Uneix-te </h1>
+      <form action="bomboclat" method="post">
+        <div>
+          <label for="nom">Nom:</label>
+          <input type="text" name="nom" id="nom">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div>
+          <label for="passwd">Contraseña:</label>
+          <input type="password" name="passwd" id="passwd">
+        </div>
+        <div>
+          <label for="url">URL: </label>
+          <input type="url" name="url" id="url">
+        </div>
+        <div>
+          <label for="color">Color Preferit:</label>
+          <input type="color" name="color" id="color">
+        </div>
+        <div>
+          <label for="data">Data de naixement:</label>
+          <input type="date" name="data" id="data">
+        </div>
+        <div>
+          <label for="time">Temps dormit:</label>
+          <input type="time" name="time" id="time">
+        </div>
+        <div>
+          <p>Gènere:</p>
+          <label for="home" class="radio">Home:</label>
+          <input type="radio" name="genere" id="home" class="radio">
+          <label for="dona" class="radio">Dona:</label>
+          <input type="radio" name="genere" id="dona" class="radio">
+        </div>
+        <div>
+          <label for="manga">Manga Preferit:</label>
+          <select name="manga" id="manga">
+            <option value="Vagabond">Vagabond</option>
+            <option value="Slam Dunk">Slam Dunk</option>
+            <option value="Real">Real</option>
+          </select>
+        </div>
+        <div>
+          <label for="numero">Numero Preferit:</label>
+          <input type="number" name="numero" id="numero">
+        </div>
+        <div>
+          <label for="rang">Rang: </label>
+          <input type="range" name="rang" id="rang">
+        </div>
+        <div id="botons">
+          <input type="reset" value="Esborrar">
+          <input type="submit" value="Enviar">
+        </div>
+      </form>
+    </div>
+
+  </article>
+</div>
+<footer>
+<h2>Fet per Jordi Cordomí Raset</h2>
+
+</footer>
+</body>
+</html>
